@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!--Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <section class="header">
+      <div class="container">
+        <h1>
+          Learn to code by watching others
+        </h1>
+  
+        <p class="intro-text">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.
+        </p>
+      </div>
+    </section>
+  
+    <section class="main">
+      <div class="container">
+        <p class="call-to-action">
+          <b>Try it free 7 days</b> then $20/mo. thereafter
+        </p>
+  
+        <form action="#" class="form">
+          <div class="column">
+            <input type="text" placeholder="First Name" class="form-item" required>
+            <span class="form-error"></span>
+            <input type="text" placeholder="Last Name" class="form-item" required>
+            <span class="form-error"></span>
+            <input type="email" placeholder="Email Address" class="form-item"required>
+            <span class="form-error"></span>
+            <input type="password" placeholder="Password" class="form-item" required>
+            <span class="form-error"></span>
+            <button type="submit" class="form-submit" onclick="formCheck()">Claim your free trial</button>
+  
+            <small>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></small>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">AX-d</a>.
+      </p>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
