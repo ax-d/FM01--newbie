@@ -43,21 +43,21 @@
   
     <section class="main">
       <div class="container">
-        <p class="call-to-action">
+        <h2 class="call-to-action">
           <b>Try it free 7 days</b> then $20/mo. thereafter
-        </p>
+        </h2>
   
         <form action="#" class="form">
           <div class="column">
-            <input type="text" placeholder="First Name" class="form-item" required>
+            <input type="text" placeholder="First Name" class="form-item" required aria-label="first name">
             <span class="form-error"></span>
-            <input type="text" placeholder="Last Name" class="form-item" required>
+            <input type="text" placeholder="Last Name" class="form-item" required aria-label="last name">
             <span class="form-error"></span>
-            <input type="email" placeholder="Email Address" class="form-item"required>
+            <input type="email" placeholder="Email Address" class="form-item"required aria-label="email address">
             <span class="form-error"></span>
-            <input type="password" placeholder="Password" class="form-item" required>
+            <input type="password" placeholder="Password" class="form-item" required aria-label="password">
             <span class="form-error"></span>
-            <button type="submit" class="form-submit" onclick="formCheck()">Claim your free trial</button>
+            <button type="submit" class="form-submit" onclick="formCheck()" aria-label="submit">Claim your free trial</button>
   
             <small>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></small>
           </div>
